@@ -61,10 +61,72 @@ print (haiku)
 age_is_12 = False
 name_is_maria = True
 
-# Value: string/integer/float?
+# value: string/integer/float?
 
 float_1 = 0.25
 float_2 = 40.0
 
 product = float_1 * float_2
 big_string = "The product was " + str(product)
+
+# assign variables (and print)
+
+caesar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+print (caesar)
+print (praline)
+print (viking)
+
+# Access variable by index
+
+"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""
+fifth_letter = "MONTY"[4]
+
+print (fifth_letter)
+
+# String methods
+    # len() lower() upper() str()
+
+parrot = "Norwegian Blue"
+print (len(parrot))
+
+parrot = "Norwegian Blue"
+print (parrot.lower())
+
+parrot = "norwegian blue"
+print (parrot.upper())
+
+pi = 3.14
+print (str(pi))
+
+# Methods that use dot notation only work with strings.
+
+ministry = "The Ministry of Silly Walks"
+
+print (len(ministry))
+print (ministry.upper())
+
+# Conversion to String to concatenate
+  # print ("The value of pi is around " + 3.14)
+
+print ("The value of pi is around " + str(3.14))
+
+# String Formatting with %
+
+string_1 = "Camelot"
+string_2 = "place"
+
+print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
