@@ -130,3 +130,23 @@ string_1 = "Camelot"
 string_2 = "place"
 
 print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
+
+#Library
+
+from datetime import datetime
+now = datetime.now()
+print (now)
+
+print(now.year)
+print(now.month)
+print(now.day)
+
+# Formatting date with %
+print ("%02d-%02d-%04d" % (now.day, now.month, now.year))
+print ("%02d/%02d/%04d" % (now.day, now.month, now.year))
+
+# Formatting time with %
+print ("%02d:%02d:%02d" % (now.hour, now.minute, now.second))
+
+# Formatting both on one line with %
+print ("%02d/%02d/%04d %02d:%02d:%02d" % (now.month, now.day, now.year, now.hour, now.minute, now.second))
