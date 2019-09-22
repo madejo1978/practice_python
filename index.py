@@ -348,4 +348,15 @@ def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
 
 print (trip_cost("Los Angeles", 5, 600))
+
+# Lists & Dictionaries
+
+
+zoo_animals = ["pangolin", "cassowary", "sloth", "Brutus" ]
+
+if len(zoo_animals) > 3:
+  print ("The first animal at the zoo is the " + zoo_animals[0])
+  print ("The second animal at the zoo is the " + zoo_animals[1])
+  print ("The third animal at the zoo is the " + zoo_animals[2])
+  print ("The fourth animal at the zoo is the " + zoo_animals[3])
     

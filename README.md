@@ -4,3 +4,4 @@ v1.2
 v1.3 Conditionals and Control Flow
 v1.4 Functions
 v1.4.1 Practice
+v1.5 Lists & Dictionaries
