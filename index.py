@@ -322,3 +322,16 @@ def distance_from_zero(num):
 
 def answer2():
   return 42
+
+def hotel_cost(nights):
+  return nights * 140
+def plane_ride_cost(city):
+  if city == "Charlotte":
+    return 183
+  elif city == "Tampa":
+    return 220
+  elif city == "Pittsburgh":
+    return 222
+  elif city == "Los Angeles":
+    return 475
+    
