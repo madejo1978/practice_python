@@ -223,3 +223,99 @@ print (grade_converter(92))
 print (grade_converter(70))
 print (grade_converter(61))
 
+
+# function
+ # 3 components (header, comment, body)
+ # call
+
+def spam():
+  """prints the string Eggs to the Console."""
+  print ("Eggs") 
+
+spam()
+
+# Defining function 
+ # placeholder variables are called parameters.
+ # inputs into the function are called arguments.
+ # call
+
+def power(base, exponent):  # Add your parameters here!
+  result = base ** exponent
+  print ("%d to the power of %d is %d." % (base, exponent, result))
+
+power(37, 4)  # Add your arguments here!
+
+# Functions calling Functions
+def one_good_turn(n):
+  return n + 1
+    
+def deserves_another(n):
+  return one_good_turn(n) + 2
+
+# example function with conditonal statements
+def cube(number):
+  return number * number * number
+
+def by_three(number):
+  if number % 3 == 0:
+    return cube(number)
+  else:
+    return False
+  
+# Generic import
+ # import standard modules from Python, for example Math
+ # => or: 
+  # from module import function
+   # just type sqrt() => no more math.sqrt()!
+  
+
+import math # get the sqrt() function from within math.  
+print(math.sqrt(25))
+
+from math import sqrt
+
+# Universal import (from module import)
+ # not adviseable creates a ton of unknown variables
+
+import math # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print (everything) # Prints 'em all!
+
+# built-in functions:
+
+# max()
+maximum = max(-1,99,313131)
+print (maximum)
+
+# min()
+minimum = min(-1,99,313131)
+print (minimum)
+
+#abs()
+ #always returns a positive value
+absolute = abs(-42)
+print(absolute)
+
+#  returns the type of the data it receives as an argument
+print (type(108))
+print (type(3.14))
+print (type('hello'))
+
+def shut_down(s):
+  if s == "yes":
+    return "Shutting down"
+  elif s == "no":
+    return "Shutdown aborted"
+  else:
+    return "Sorry"
+
+
+from math import sqrt
+value = sqrt(13689)
+print(value)
+
+def distance_from_zero(num):
+  if type(num) == int or type(num) == float:
+    return abs(num)
+  else:
+    return "Nope"
