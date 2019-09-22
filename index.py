@@ -131,6 +131,7 @@ string_2 = "place"
 
 print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
 
+
 #Library
 
 from datetime import datetime
@@ -150,3 +151,75 @@ print ("%02d:%02d:%02d" % (now.hour, now.minute, now.second))
 
 # Formatting both on one line with %
 print ("%02d/%02d/%04d %02d:%02d:%02d" % (now.month, now.day, now.year, now.hour, now.minute, now.second))
+
+
+# Boolean
+ # comparators are: ==, !=, >, >=, <, and <=
+
+# Make me true!
+bool_one = 3 < 5  
+
+# Make me false!
+bool_two = 99 == "lettuce"
+
+# Make me true!
+bool_three = 44 / 2 <= 43
+
+# Make me false!
+bool_four = "potato" != "potato"
+
+# Make me true!
+bool_five = "tomato" == "tomato"
+
+# Conditionals
+ # Comparators
+ # Boolean operators
+ # Conditional statements
+
+# boolean operators
+ # three: not (1), and (2), or (3) (in this order)
+
+ # if is a conditional statement 
+  # executes after checking expression is True
+  # use white space (before print-statement)
+  # colons at the end
+
+answer = "Left"
+if answer == "Left":
+    print("This is the Verbal Abuse Room, you heap of parrot droppings!")
+
+# The else statement complements the if statement (if/else )
+  # Unlike if, else doesn’t depend on an expression
+
+# elif 
+ # short for “else if.”
+
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif answer < 5:          
+        return -1
+    else:
+        return 0
+        
+print (greater_less_equal_5(4))
+print (greater_less_equal_5(5))
+print (greater_less_equal_5(6))
+
+
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80:
+        return "B"
+    elif grade >= 70:
+        return "C"
+    elif grade >= 65:
+        return "D"
+    else:
+        return "F"
+      
+print (grade_converter(92))
+print (grade_converter(70))
+print (grade_converter(61))
+
