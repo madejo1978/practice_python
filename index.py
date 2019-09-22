@@ -319,3 +319,6 @@ def distance_from_zero(num):
     return abs(num)
   else:
     return "Nope"
+
+def answer2():
+  return 42
