@@ -369,5 +369,11 @@ numbers = [5, 6, 7, 8]
 
 print ("Print 5 + 7")
 print (numbers[0] + numbers[2])
-print ("Print 6 + 8")
+print ("6 + 8")
 print (numbers[1] + numbers[3])
+
+# List index can be used to access & to assign values (just like a variable).
+zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
+# Change value "tiger" in the list
+zoo_animals[3] = "hyena"
+print (zoo_animals[3])
