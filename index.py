@@ -385,3 +385,9 @@ list_length = len(letters)
 print ("There are %d items in the List letters." % (list_length))
 print (len(letters))
 print (letters)
+
+# List slicing
+letters = ['a', 'b', 'c', 'd', 'e']
+slice = letters[1:3] # slices before 3 (not showing 3) 
+print (letters)
+print (slice)
