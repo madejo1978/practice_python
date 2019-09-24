@@ -377,3 +377,11 @@ zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
 # Change value "tiger" in the list
 zoo_animals[3] = "hyena"
 print (zoo_animals[3])
+
+# List length
+letters = ['a', 'b', 'c']
+letters.append('d')
+list_length = len(letters)
+print ("There are %d items in the List letters." % (list_length))
+print (len(letters))
+print (letters)
