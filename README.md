@@ -5,5 +5,6 @@ v1.3 Conditionals and Control Flow
 v1.4 Functions
 v1.4.1 Practice
 v1.5 Lists & Dictionaries
-v.1.5.1 
-v.1.5.2 Lists & Functions
+v1.5.1 
+v1.5.2 Lists & Functions
+v1.5.3 Iterate

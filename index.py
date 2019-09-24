@@ -560,7 +560,16 @@ list_iterate = [31, 31, 31]
 for i in range(len(list_iterate)):
   print (list_iterate[i])
 
+# iterate strings 
+n = ["Martin", "de", "Jonge"]
 
+def join_strings(words):
+  result = ""
+  for word in words:
+    result += word
+  return result
+
+print (join_strings(n))
 
 
 
