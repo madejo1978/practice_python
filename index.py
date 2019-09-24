@@ -501,3 +501,12 @@ inventory['backpack'].sort()
 inventory['backpack'].remove('dagger')
  # add 55 to gold key
 inventory['gold'] = inventory['gold'] + 50
+
+
+# List - Function
+ # using one element 
+def list_function(x):
+  return x[1] + 1
+
+n = [3, 5, 7]
+print (list_function(n))

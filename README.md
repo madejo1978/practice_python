@@ -6,3 +6,4 @@ v1.4 Functions
 v1.4.1 Practice
 v1.5 Lists & Dictionaries
 v.1.5.1 
+v.1.5.2 Lists & Functions
