@@ -424,3 +424,10 @@ print (animals2)
 my_list = [1,9,3,8,5,7]
 for for_loop in my_list:
   print (2 * for_loop)
+
+# List - sort  
+animals3 = ["cat", "ant", "bat"]
+animals3.sort()
+
+#for animals3 in animals3:
+print (animals3)
