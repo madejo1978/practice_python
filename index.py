@@ -543,3 +543,24 @@ def double_list(x):
   return x
 
 print (double_list(n))
+
+# range()
+ # shortcut function for generating a list
+ # 3 versions: stop, start-stop, start-stop-step
+
+# Iterating over a list 
+
+ # method 1: FOR item in a list (not possible to modify)
+list_for = [31, 11, 37]
+for item in list_for:
+  print (item)
+
+ # method 2: iterate through indexes (uses indexes)
+list_iterate = [31, 31, 31]
+for i in range(len(list_iterate)):
+  print (list_iterate[i])
+
+
+
+
+
