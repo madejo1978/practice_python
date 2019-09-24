@@ -455,3 +455,22 @@ menu['Salad'] = 10.00
 
 print ("There are " + str(len(menu)) + " items on the menu.")
 print (menu)
+
+# del / rename
+zoo_animals = { 'Unicorn' : 'Cotton Candy House',
+'Sloth' : 'Rainforest Exhibit',
+'Bengal Tiger' : 'Jungle House',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+
+print ("There are " + str(len(zoo_animals)) + " animals in the zoo.")
+
+ # del
+del zoo_animals['Unicorn']
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+
+# replace
+zoo_animals['Rockhopper Penguin'] = 'Plains Penis'
+
+print ("There are " + str(len(zoo_animals)) + " animals in the zoo.")
