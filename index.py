@@ -386,8 +386,23 @@ print ("There are %d items in the List letters." % (list_length))
 print (len(letters))
 print (letters)
 
-# List slicing
+# List slicing - general
 letters = ['a', 'b', 'c', 'd', 'e']
 slice = letters[1:3] # slices before 3 (not showing 3) 
 print (letters)
 print (slice)
+
+# List slicing - string
+animals = "catdogfrog"
+
+ # The first three characters of animals
+cat = animals[:3]
+print (cat)
+
+ # The fourth through sixth characters
+dog = animals[3:6]
+print(dog)
+
+ # From the seventh character to the end
+frog = animals[6:]
+print(frog)
