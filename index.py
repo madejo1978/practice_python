@@ -431,3 +431,27 @@ animals3.sort()
 
 #for animals3 in animals3:
 print (animals3)
+
+# List - key / dictionaries
+ # access values by looking up a key instead of an index (string or number)
+ # login-pages, phonebooks
+ # enclosed in curly braces (with key-value-pairs)
+  # print is not with curly braces
+residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
+print (residents['Puffin']) 
+print (residents['Sloth'])
+print (residents['Burmese Python'])
+
+# List / Dictionary - mutuable
+
+menu = {} # Empty dictionary
+menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
+print (menu['Chicken Alfredo'])
+
+# Your code here: Add some dish-price pairs to menu!
+menu['Hamburger'] = 8.50
+menu['Pizza Slice'] = 3.50
+menu['Salad'] = 10.00
+
+print ("There are " + str(len(menu)) + " items on the menu.")
+print (menu)
