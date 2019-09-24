@@ -510,3 +510,11 @@ def list_function(x):
 
 n = [3, 5, 7]
 print (list_function(n))
+
+# modify one element
+def list_function2(x):
+  x[1] = x[1] + 6
+  return x
+
+n = [3, 5, 7]
+print (list_function2(n))
