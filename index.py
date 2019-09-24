@@ -406,3 +406,13 @@ print(dog)
  # From the seventh character to the end
 frog = animals[6:]
 print(frog)
+
+# Maintaining order
+
+ #search
+animals2 = ["ant", "bat", "cat"]
+print (animals2.index("bat"))
+
+ #insert
+animals2.insert(1, "insert before 1 bat")
+print (animals2)
