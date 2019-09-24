@@ -350,6 +350,7 @@ def trip_cost(city, days, spending_money):
 print (trip_cost("Los Angeles", 5, 600))
 
 # Lists & Dictionaries
+ # Lists are a datatype you can use to store a collection of different pieces of information as a sequence under a single variable name.
 
 
 zoo_animals = ["pangolin", "cassowary", "sloth", "Brutus" ]
@@ -360,3 +361,13 @@ if len(zoo_animals) > 3:
   print ("The third animal at the zoo is the " + zoo_animals[2])
   print ("The fourth animal at the zoo is the " + zoo_animals[3])
     
+# Index
+ # You can access an individual item on the list by its index
+ # The index appears directly after the list name, in between brackets
+
+numbers = [5, 6, 7, 8]
+
+print ("Print 5 + 7")
+print (numbers[0] + numbers[2])
+print ("Print 6 + 8")
+print (numbers[1] + numbers[3])
