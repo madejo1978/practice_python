@@ -474,3 +474,8 @@ del zoo_animals['Bengal Tiger']
 zoo_animals['Rockhopper Penguin'] = 'Plains Penis'
 
 print ("There are " + str(len(zoo_animals)) + " animals in the zoo.")
+
+# remove function
+beatles = ["john","paul","george","ringo","stuart"]
+beatles.remove("stuart")
+print (beatles)
