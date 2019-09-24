@@ -448,7 +448,7 @@ menu = {} # Empty dictionary
 menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
 print (menu['Chicken Alfredo'])
 
-# Your code here: Add some dish-price pairs to menu!
+# Add 
 menu['Hamburger'] = 8.50
 menu['Pizza Slice'] = 3.50
 menu['Salad'] = 10.00
@@ -479,3 +479,25 @@ print ("There are " + str(len(zoo_animals)) + " animals in the zoo.")
 beatles = ["john","paul","george","ringo","stuart"]
 beatles.remove("stuart")
 print (beatles)
+
+# summary list/dictionary
+inventory = {
+  'gold' : 500,
+  'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
+  'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
+}
+
+ # Adding a key 'burlap bag' and assigning a list to it
+inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+
+ # Sorting the list found under the key 'pouch'
+inventory['pouch'].sort() 
+
+ # Set the value of 'pocket' to be a list 
+inventory['pocket'] = ['seashell', 'strange berry', 'lint']
+ # sort
+inventory['backpack'].sort()
+ # remove
+inventory['backpack'].remove('dagger')
+ # add 55 to gold key
+inventory['gold'] = inventory['gold'] + 50
