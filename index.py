@@ -407,7 +407,7 @@ print(dog)
 frog = animals[6:]
 print(frog)
 
-# Maintaining order
+# List - maintaining order
 
  #search
 animals2 = ["ant", "bat", "cat"]
@@ -416,3 +416,11 @@ print (animals2.index("bat"))
  #insert
 animals2.insert(1, "insert before 1 bat")
 print (animals2)
+
+# List - For loop
+ # if you want to do something with every item in the list
+ # FOR variable IN list:
+
+my_list = [1,9,3,8,5,7]
+for for_loop in my_list:
+  print (2 * for_loop)
