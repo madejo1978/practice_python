@@ -580,3 +580,33 @@ def join_lists(x,y):
 
 print (join_lists(m, n))
 
+# concatenates all sublists 
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+
+def flatten(lists):
+  results = []
+  for numbers in lists:
+    for number in numbers:
+      results.append(number)
+  return results
+
+print (flatten(n))
+
+# LOOPS
+
+# While-loop
+ # similar to an if statement: it executes the code inside of it if some condition is true. The difference is that the while loop will continue to execute as long as the condition is true. 
+ # in other words, instead of executing just onetime if true, it keeps executing while is true. 
+
+count = 6
+
+if count < 5:
+  print ("Hello, I am an if statement and the count is", count)
+elif count > 5:
+  print("Hello, I will not show an if statement because the count is > 5")
+    
+
+while count < 12:
+  print ("Hello, I am an while statement and the count is", count) 
+  count += 1
+
