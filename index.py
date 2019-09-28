@@ -637,4 +637,15 @@ choice = input("Enjoying the course? (y/n)") # input()
 while choice != 'y' and choice != 'n':  
   choice = input("Sorry, I didn't catch that. Enter again: ")
 
-  
+# infinite loop   
+ # error-handling: 1 condition cannot be false 2 logic of the loop prevents the condition from becoming false
+
+# Break
+ # The break is a one-line statement that means “exit the current loop.”
+count2 = 0
+
+while True:
+  print (count2)
+  count2 += 1
+  if count2 >= 10:
+    break
