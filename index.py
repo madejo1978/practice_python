@@ -627,4 +627,14 @@ num = 1
 while num <= 10:  
   num += 1
   print (num ** 2)
+
+# While loop
+ # often used for login-applications / to check if input is correct
+ # for example to check if user input is valid
+
+choice = input("Enjoying the course? (y/n)") # input()
+
+while choice != 'y' and choice != 'n':  
+  choice = input("Sorry, I didn't catch that. Enter again: ")
+
   
