@@ -696,6 +696,7 @@ else:
  # This kind of loop is useful when you want to do something a certain number of times, 
  # such as append something to the end of a list.
  # using a for loop, you can print out each individual character in a string.
+ # Perhaps the most useful (and most common) use of for loops is to go through a list.
 
 
  # example: for each number i in the range 0 - 9, print i“
@@ -724,6 +725,10 @@ for c in thing:
 word = "eggs!"
 
 for c in word:
+  print (c,end="")
+
+# second loop
+for c in word:
   print (c)
 
 # FOR loop
@@ -738,3 +743,12 @@ for char in phrase:
     print (char,end="")
 
 print()
+
+# looping over a dictionary
+ # use a key to get the value.
+
+d = {'x': 9, 'y': 10, 'z': 20}
+for key in d:
+  if d[key] == 10:
+    print ("This dictionary has the value 10!")
+
