@@ -654,7 +654,7 @@ while True:
  # similar to if/else, difference:   
   # the else block will execute anytime the loop condition is evaluated to False. 
   # This means that it will execute if the loop is never entered or if the loop exits normally. 
-  # If the loop exits as the result of a break, the else will not be executed.
+  # If the loop exits as the result of a break, the else will not be executed, (but it will execute the entire "if-code-block")
 
 import random
 
@@ -671,3 +671,26 @@ while count3 < 3:
   count3 += 1
 else:
   print ("You win!")
+
+# Exercise 
+ # guess the number (3 chances).
+
+# import function 
+from random import randint
+
+# Generates a number from 1 through 10 (! generates a string, so convert it to an integer)
+random_number = randint(1, 10)
+guesses_left = 3
+
+# Game
+while guesses_left > 0:
+  guess = int(input("Your guess: "))
+  if guess == random_number:
+    print ("You win! You lucky BASTARD")
+    break
+  guesses_left -= 1
+else:
+  print ("You lose. LOOSER")
+
+
+
