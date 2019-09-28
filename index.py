@@ -765,6 +765,7 @@ for index, item in enumerate(choices):
  # iterate over two lists at once. 
 
 # Loops FOR/ELSE
+ # break executes when it hits 'tomato'.
 fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
 
 print ('You have...')
@@ -774,4 +775,13 @@ for f in fruits:
     break
   print ('A', f)
 else:
-  print ('A fine selection of fruits!') #else only executes when false
+  print ('A fine selection of fruits!') #else only executes when false, BUT this code uses 'break': the else block won’t be executed.
+
+# Example
+ # practice with for & break
+test = ["bleh", "blah", "bloh"]
+for x in test:
+    print (x)
+    # break
+else:
+    print ("ok")
