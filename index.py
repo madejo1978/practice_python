@@ -752,3 +752,12 @@ for key in d:
   if d[key] == 10:
     print ("This dictionary has the value 10!")
 
+# enumerate()
+ # supplies a counting list a corresponding index(to each element in the list)
+choices = ['pizza', 'pasta', 'salad', 'nachos']
+
+print ('Your choices are:')
+for index, item in enumerate(choices):
+  print (index + 1, item)
+
+
