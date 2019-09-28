@@ -597,6 +597,7 @@ print (flatten(n))
 # While-loop
  # similar to an if statement: it executes the code inside of it if some condition is true. The difference is that the while loop will continue to execute as long as the condition is true. 
  # in other words, instead of executing just onetime if true, it keeps executing while is true. 
+ # inside a while loop, you can do anything you could do elsewhere, including arithmetic operations.
 
 count = 6
 
@@ -618,3 +619,12 @@ loop_condition = True
 while loop_condition:
   print ("I am a loop")
   loop_condition = False # if this expression is set to "True" it keeps on looping, i.c. printing
+
+# The syntax for squaring a number is num ** 2
+ # Print num squared <= 10
+num = 1
+
+while num <= 10:  
+  num += 1
+  print (num ** 2)
+  
