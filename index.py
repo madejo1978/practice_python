@@ -610,3 +610,11 @@ while count < 12:
   print ("Hello, I am an while statement and the count is", count) 
   count += 1
 
+# Condition
+ # expression that decides whether the loop is going to continue being executed or not.
+
+loop_condition = True
+
+while loop_condition:
+  print ("I am a loop")
+  loop_condition = False # if this expression is set to "True" it keeps on looping, i.c. printing
