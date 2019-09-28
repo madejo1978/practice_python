@@ -760,4 +760,18 @@ print ('Your choices are:')
 for index, item in enumerate(choices):
   print (index + 1, item)
 
+# zip ()
+ # Multiple lists
+ # iterate over two lists at once. 
 
+# Loops FOR/ELSE
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print ('You have...')
+for f in fruits:
+  if f == 'tomato':
+    print ('A tomato is not a fruit!') # (It actually is.)
+    break
+  print ('A', f)
+else:
+  print ('A fine selection of fruits!') #else only executes when false
