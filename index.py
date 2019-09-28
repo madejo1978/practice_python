@@ -692,5 +692,37 @@ while guesses_left > 0:
 else:
   print ("You lose. LOOSER")
 
+# FOR loop
+ # This kind of loop is useful when you want to do something a certain number of times, 
+ # such as append something to the end of a list.
+ # using a for loop, you can print out each individual character in a string.
 
 
+ # example: for each number i in the range 0 - 9, print i“
+
+print ("Example of the FOR loop...")
+
+for i in range(10):
+  print (i)
+
+print ("append something to the end of a list.")
+
+hobbies = []
+
+for num in range(2):
+  hobby =  input("Tell me 2 of your favorite hobbies? ")
+  hobbies.append(hobby)
+
+print (hobbies)
+
+  # example print each individual character in a string
+thing = "spam!"
+
+for c in thing:
+  print (c)
+
+word = "eggs!"
+
+# Your code here!
+for c in word:
+  print (c)
