@@ -785,3 +785,5 @@ for x in test:
     # break
 else:
     print ("ok")
+
+# Classes

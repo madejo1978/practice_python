@@ -9,3 +9,4 @@ v1.5.1
 v1.5.2 Lists & Functions
 v1.5.3 Iterate
 v1.5.4 Loops
+V1.6 Classes
