@@ -787,3 +787,5 @@ else:
     print ("ok")
 
 # Classes
+ # __init__() This function is required for classes, and it’s used to initialize the objects it creates.
+  # takes 2 parameters, it’s common to use "self" as the first parameter 
