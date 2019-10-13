@@ -789,3 +789,11 @@ else:
 # Classes
  # __init__() This function is required for classes, and it’s used to initialize the objects it creates.
   # takes 2 parameters, it’s common to use "self" as the first parameter 
+  # we can access attributes of our objects using dot notation
+class Animal(object):
+  def __init__(self, name):
+    self.name = name
+    
+zebra = Animal("Jeffrey")
+
+print (zebra.name) 
