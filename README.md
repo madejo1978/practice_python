@@ -12,3 +12,4 @@ v1.5.4 Loops
 V1.6 Classes
 v1.6.1 __init__() and self
 v1.6.2 Methods
+v1.6.3 Shopping Card
