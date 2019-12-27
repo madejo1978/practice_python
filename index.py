@@ -880,3 +880,6 @@ class ShoppingCart(object):
 
 my_cart = ShoppingCart("Eric")
 my_cart.add_item("Ukelele", 10)
+
+# Inheritance is the process by which one class takes on the attributes and methods of another, and it’s used to express an is-a relationship. 
+ # For example, a Panda is a bear, so a Panda class could inherit from a Bear class. 
